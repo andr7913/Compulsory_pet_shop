@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core.entity\PetShop.Core.Entity.csproj" />
+    <ProjectReference Include="..\infrastructur.Data\infrastructur.Data.csproj" />
+    <ProjectReference Include="..\Pet.core\PetShop.core.csproj" />
+  </ItemGroup>
+
+</Project>
