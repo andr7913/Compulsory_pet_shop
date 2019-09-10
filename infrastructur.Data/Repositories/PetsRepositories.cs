@@ -8,7 +8,7 @@ namespace infrastructur.Data.Repositories
     public class PetsRepositories : IPetRepository
     {
         static int id=1;
-        private  List<Pet> _pets = new List<Pet>();
+        private static  List<Pet> _pets = new List<Pet>();
 
         
         public Pet CreatPet(Pet animal)
