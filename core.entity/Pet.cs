@@ -2,7 +2,7 @@
 
 namespace PetShop.Core.Entity
 {
-   public class Pet
+    public class Pet
     {
         public int id { get; set; }
         public string name { get; set; }
@@ -11,6 +11,8 @@ namespace PetShop.Core.Entity
         public DateTime SoldDate { get; set; }
         public string color { get; set; }
         public string PreviousOwner { get; set; }
-        public Double price { get; set;}
+        public Double price { get; set; }
+        public Owner owner { get; set; }
+
     }
 }

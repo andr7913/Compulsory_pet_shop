@@ -31,6 +31,9 @@ namespace PetShopApp.UI.RestApi
         {
             services.AddScoped<IPetRepository, PetsRepositories>();
             services.AddScoped<IPetsService, PetService>();
+
+            services.AddScoped<IOwnerRepository, OwnerRepository>();
+            services.AddScoped<IOwnerService, OwnerService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
